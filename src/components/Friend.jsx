@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath, isAddable }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `http://localhost:3001/users/${_id}/${friendId}`,
+      `https://sharespeare-backend.adaptable.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
