@@ -3,6 +3,8 @@ import {
   EditOutlined,
   LocationOnOutlined,
   WorkOutlineOutlined,
+  Twitter,
+  LinkedIn,
 } from "@mui/icons-material";
 import { Box, Typography, Divider, useTheme } from "@mui/material";
 import UserImage from "components/UserImage";
@@ -123,7 +125,8 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <FlexBetween gap="1rem">
-            <img src="../assets/twitter.png" alt="twitter" />
+            {/* <img src="../assets/twitter.png" alt="twitter" /> */}
+            <Twitter/>
             <Box>
               <Typography color={main} fontWeight="500">
                 Twitter
@@ -136,7 +139,8 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem">
           <FlexBetween gap="1rem">
-            <img src="../assets/linkedin.png" alt="linkedin" />
+            {/* <img src="../assets/linkedin.png" alt="linkedin" /> */}
+            <LinkedIn/>
             <Box>
               <Typography color={main} fontWeight="500">
                 Linkedin
